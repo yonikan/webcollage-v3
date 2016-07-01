@@ -95,6 +95,6 @@ $(document).ready(function() {
 
 
 
-	$("#test").backstretch("../dist/img/backs/banner1.jpg");
+	$("#test").backstretch("./dist/img/backs/banner1.jpg");
 
 });
