@@ -11,7 +11,7 @@ var gutil = require('gulp-util');
 var babel = require("gulp-babel");
 var gulpif = require('gulp-if');
 
-var compressed = false;
+var compressed = true;
 var htmlmin = require('gulp-htmlmin');
 var cssnano = require('gulp-cssnano');
 var uglify = require('gulp-uglify');
