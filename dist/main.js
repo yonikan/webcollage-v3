@@ -1,19 +1,5 @@
 $(document).ready(function() {
 
-
-
-	// $(function() {
-	//     $('#test').vegas({
-	//         slides: [
-	//             { src: './dist/img/backs/banner.jpg"' }
-	//         ]
-	//     });
-	// });
-
-
-	// $("#test").backstretch("./dist/img/backs/banner.jpg");
-
-
 	// Ajax test -----------------------------------------------
 	$("#ajax-btn").click(function(event){
 
