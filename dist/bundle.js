@@ -1,16 +1,23 @@
 $(document).ready(function() {
 
+
+
+	// $(function() {
+	//     $('#test').vegas({
+	//         slides: [
+	//             { src: './dist/img/backs/banner.jpg"' }
+	//         ]
+	//     });
+	// });
+
+
+	// $("#test").backstretch("./dist/img/backs/banner.jpg");
+
+
 	// Ajax test -----------------------------------------------
 	$("#ajax-btn").click(function(event){
 
 		 var root = 'http://jsonplaceholder.typicode.com';
-
-		//  $.getJSON('../dist/others/test.json', function(data) {
- 	// 	   	console.log(data);
-		// 		$('#ajax-test').html('<p> Name: ' + data.name + '</p>');
-		// 		$('#ajax-test').append('<p>Age : ' + data.age+ '</p>');
-		// 		$('#ajax-test').append('<p> Sex: ' + data.sex+ '</p>');
-		//  });
 
 		 $.getJSON(root + '/posts/1', function(data) {
 				$('#ajax-test').html('<p> user id: ' + data.id + '</p>');
@@ -35,13 +42,11 @@ $(document).ready(function() {
 
 
 
-
 	// wow.js initialization
   var myWindow = $(window);
 	if (myWindow.width()>530) {
 		new WOW().init();
 	};
-
 
 
 
@@ -92,9 +97,5 @@ $(document).ready(function() {
 		$('.nav-toggle').toggleClass('close-nav');
 		nav.toggleClass('open');
 	});
-
-
-
-	$("#test").backstretch("./dist/img/backs/banner1.jpg");
 
 });

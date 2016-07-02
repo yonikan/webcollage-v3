@@ -10,33 +10,11 @@
 
     <!-- project style -->
     <link rel="stylesheet" href="dist/style.css">
-
     <link rel="stylesheet" href="dist/vendor/css/responsive.css">
     <link rel="stylesheet" href="dist/vendor/css/animate.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
+
+
     <link href='https://fonts.googleapis.com/css?family=Lato:400,300,100,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
-
-
-
-    <script src="dist/polyfill.js"></script>
-    <script src="dist/system.js"></script>
-    <script>
-    // set our baseURL reference path
-    System.config({
-        packages: {
-            js: {
-                format: 'register',
-                defaultExtension: 'js'
-            },
-        },
-        meta: {
-            // our modules have been transpiled to commonJS
-            'js/*': {format: 'cjs'}
-        }
-    });
-
-     System.import('js/more-codes.js')
-                 .then(null, console.error.bind(console));
-    </script>

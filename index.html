@@ -13,36 +13,14 @@
 
     <!-- project style -->
     <link rel="stylesheet" href="dist/style.css">
-
     <link rel="stylesheet" href="dist/vendor/css/responsive.css">
     <link rel="stylesheet" href="dist/vendor/css/animate.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
+
+
     <link href='https://fonts.googleapis.com/css?family=Lato:400,300,100,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
-
-
-
-    <script src="dist/polyfill.js"></script>
-    <script src="dist/system.js"></script>
-    <script>
-    // set our baseURL reference path
-    System.config({
-        packages: {
-            js: {
-                format: 'register',
-                defaultExtension: 'js'
-            },
-        },
-        meta: {
-            // our modules have been transpiled to commonJS
-            'js/*': {format: 'cjs'}
-        }
-    });
-
-     System.import('js/more-codes.js')
-                 .then(null, console.error.bind(console));
-    </script>
 
   </head>
   <body>
@@ -50,7 +28,7 @@
 
     
 <!-- header section -->
-<section class="banner" role="banner" id="test">
+<section class="banner" role="banner">
   <header id="header">
     <div class="header-content clearfix"> <a class="logo" href="index.html"><img  src="dist/img/logos/logo-collage.png" alt="logo"></a>
       <nav class="navigation" role="navigation">
@@ -120,7 +98,7 @@
 					<h2 style="line-height: 60px;">Pairs with the zero-downtime power of <a href="#">Envoyer</a> like fine wine and cheese. Or Kirk and Spock.</h2>
 
 					<h3>
-            <img src="team-2" width="200px" height="300px"/><br />
+            <img src="#" width="200px" height="300px"/><br />
 						<a href="#">
 							Learn More About Envoyer
 							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="svg-chevron-icon"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg>
@@ -234,6 +212,7 @@
     <script src="dist/vendor/js/jquery.fancybox.pack.js"></script>
     <script src="dist/vendor/js/wow.js"></script>
     <script src="dist/vendor/js/jquery.backstretch.min.js"></script>
+    <script src="dist/vendor/vegas/vegas.js"></script>
     <script src="dist/bundle.js"></script>
   </body>
 </html>
